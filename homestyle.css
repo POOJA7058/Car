@@ -1,0 +1,151 @@
+.container
+{
+	background-color:;
+	background-size:100%;
+	height:130vh;
+	background-size: cover;
+}
+.nav
+{
+	height: 60px;
+	background-color:red;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width:85%;
+	margin-top: 30px;
+	margin-left: 30px;
+  	border-right:10px solid #f8f7f7;
+  	border-bottom:10px solid #f8f7f7;
+  
+}
+.nav__links
+	{
+		color: white;
+		display: flex;
+		align-items: center;
+		text-align: right;
+	}
+.nav__links a{
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 12px 0 12px;
+}
+
+.nav__img img
+{
+	border-radius: 50%;
+	margin-right: 30px;
+	margin-top: 10px;
+	width: 100px;
+	display: none;*/
+}
+/*id,title,discription,author_name*/
+/*for value fetchinh*/
+.row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    width: 100%;
+    box-shadow: 10px 10px 3px grey;
+  
+  }
+  .first h3{
+	  text-align: center;
+  }
+  .cnt{
+	  text-align: justify;
+	  font-size: 15px;
+	  font-family: sans-serif;
+  }
+  .last{
+	  text-align: center;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+  }
+  .last a{
+	color:red;
+	text-decoration: none;
+	padding: 10px;
+}
+  
+.main{
+	padding: 9%; 
+}
+.wlcm{
+	width:100%;
+	height: 20%;
+}
+.main1{
+ 
+	 padding:2% 9%;
+}
+.nava1 h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family:CCClobberinTimeCrunchy, sans-serif;
+	font-style: normal;
+	font-weight:400;
+	font-size: 40px;
+}
+.nav_data{
+	text-align: right;
+	margin: 20px;
+}
+.nav_data a{
+	text-align: right;
+    text-decoration: none;
+    font-size: 25px;
+	color:#549be2;
+}
+.nav_data1 a{
+	text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+	color:#549be2;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+	.row {
+		grid-template-columns: repeat(3,1fr);
+	}
+	.nav_data a{
+		text-align: right;
+		text-decoration: none;
+		font-size: 40px;
+		color:#549be2;
+		padding: 10px;
+	}
+	.nav_data1 a{
+		text-align: right;
+		text-decoration: none;
+		font-size: 20px;
+		color:#549be2;
+		margin-right: 70px;
+		margin-top: 30px;
+
+	}
+	.nav{
+		width: 83%;
+	margin-top: 40px;
+	margin-left: 125px; 
+	}
+	.nav__links a{
+		font-size: 20px;
+	}
+	.main {
+		padding: 2% 9%;
+	}
+}
+.imag1{
+	max-height: 300px;
+	width:100%
+}
